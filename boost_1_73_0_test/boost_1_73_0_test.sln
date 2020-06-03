@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_date_time", "boost_da
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_filesystem", "boost_filesystem\boost_filesystem.vcxproj", "{BD8E7119-4953-4AA2-80BC-CE6495090C40}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "boost_log", "boost_log\boost_log.vcxproj", "{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BD8E7119-4953-4AA2-80BC-CE6495090C40}.Release|x64.Build.0 = Release|x64
 		{BD8E7119-4953-4AA2-80BC-CE6495090C40}.Release|x86.ActiveCfg = Release|Win32
 		{BD8E7119-4953-4AA2-80BC-CE6495090C40}.Release|x86.Build.0 = Release|Win32
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Debug|x64.ActiveCfg = Debug|x64
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Debug|x64.Build.0 = Debug|x64
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Debug|x86.Build.0 = Debug|Win32
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Release|x64.ActiveCfg = Release|x64
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Release|x64.Build.0 = Release|x64
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Release|x86.ActiveCfg = Release|Win32
+		{BCBDFA08-3D78-4828-90D6-9CE2E34F2B8C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

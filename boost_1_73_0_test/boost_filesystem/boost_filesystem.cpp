@@ -43,7 +43,6 @@ void DirItreation(path& p)
 		}
 	} while (0);
 
-
 	/*
 	* path 拆分拼接基本操作
 	*/
@@ -278,6 +277,36 @@ int main()
 				
 			}
 		}
+	} while (0);
+
+
+	/*
+	* 拷贝、删除文件
+	*/
+	do 
+	{
+
+		path src("d:\\111.rar");
+		path dst("d:\\recc\\2a\\4b\\5g\\6l");
+	//	path dstf("d:\\recc\\2.rar");
+		boost::system::error_code err;
+		if (!exists(dst, err))
+		{
+			if (!create_directories(dst, err))
+			{
+				cout << "Dest dir err " << err.value() << endl;
+				break;
+			}
+
+		}
+
+		dst /= path("2.rar");
+		copy_file(src, dst, copy_option::overwrite_if_exists, err);
+		if (err.value() == 0)
+		{
+			fs::remove(src, err);
+		}
+		
 	} while (0);
 
 
