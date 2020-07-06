@@ -64,15 +64,13 @@ void push()
 
 }
 
-
 struct Heap_deleter
 {
 	void operator()(LPVOID p)
 	{
 		HeapFree(GetProcessHeap(), 0, p);
 	}
-};
-
+}
 
 int main()
 {
